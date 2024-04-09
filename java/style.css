@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('plano-de-fundo-doodle-abstrato_23-2149315781.avif');
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem na tela */
+}
+
+#container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+/* Estilo para campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para botões */
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d34685;
+}
+
+/* Estilo para a área de consulta */
+#resultadoConsulta {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para a mensagem de sucesso */
+.success-message {
+    color: #4CAF50; /* Verde */
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    color: #f44336; /* Vermelho */
+}
